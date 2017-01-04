@@ -4,6 +4,8 @@ use \Psr\Http\Message\ResponseInterface as Response;
 
 require './vendor/autoload.php';
 
+$app = new \Slim\App;
+
 /**
  * Default Index - Script de demonstração de Auto Scaling e Load Balance
  * @var string
