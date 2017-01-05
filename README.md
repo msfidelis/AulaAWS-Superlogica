@@ -1,5 +1,18 @@
 
-# Configuração do ambiente
+
+
+## Checklist simplista de Deploy
+
+- [ ] Instalamos nosso PHP7.0, Apache, Git e fazemos nossas configurações mínimas para rodar o projeto. 
+
+- [ ] Clonamos nosso projeto do Github, nos certificamos que o mesmo possui as permissões adequadas para funcionar, deletamos nossos Virtualhosts do Apache e configuramos um novo ideal para o projeto. 
+
+- [ ] Instalamos o gerenciador de dependências Composer para satisfazer as dependências de bibliotecas de terceiros do projeto e fazer nosso Autoload. 
+
+- [ ] Resolvemos as dependências e reiniciamos o Apache para garantir as modificações. 
+
+
+# Configuração do ambiente - Processo de Deploy! 
 
 ## INSTALANDO AS DEPENDENCIAS
 ```
